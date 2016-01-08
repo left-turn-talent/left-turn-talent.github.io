@@ -1,4 +1,4 @@
 FROM nginx
 
-COPY . /usr/share/nginx/html
+COPY _site/ /usr/share/nginx/html/left-turn-talent/
 COPY default.conf /etc/nginx/conf.d/default.conf
